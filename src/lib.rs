@@ -187,7 +187,7 @@ mod tests {
         let p1 = Parser;
         let p2 = Parser;
         assert_eq!(p1, p2);
-        let p3 = Parser::default();
+        let p3 = Parser;
         assert_eq!(p1, p3);
     }
 
